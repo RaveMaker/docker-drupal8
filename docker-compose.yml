@@ -21,7 +21,7 @@ services:
       - "traefik.frontend.rule=Host:${hostRule}"
       - "traefik.docker.network=${podName}_frontend"
       - "traefik.port=80"
- 
+
   mariadb:
     image: mariadb
     restart: always
