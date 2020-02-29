@@ -3,3 +3,4 @@ msmtp/msmtprc
 database/
 backup/
 drupal/
+.env

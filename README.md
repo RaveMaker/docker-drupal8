@@ -7,10 +7,10 @@ docker-compose file includes:
  - Adminer
  - Backup
 
-## Setup
+## Setup:
 1. clone the repo
-2. edit .env file
-3. create msmtp/msmtprc from provided msmtprc.example
+2. create `.env` file from `.env.example`
+3. create `msmtp/msmtprc` from `msmtp/msmtprc.example`
 
 ## Network settings:
 The stack is divided into two networks, backend and frontend.
