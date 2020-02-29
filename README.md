@@ -25,7 +25,10 @@ both networks are unique and will be named with stack-name_network-name such as:
 
 after running docker-compose up you need to connect your reverse proxy to your new frontend network:
  you can do that manually using:
- - docker network connect docker-drupal8_frontend PROXY_CONTAINER_NAME
+ 
+```
+docker network connect docker-drupal8_frontend PROXY_CONTAINER_NAME
+```
 
 if you are using my Traefik setup there is a 'connect.sh' script included
 that will connect all your frontend networks to your Traefik container.
