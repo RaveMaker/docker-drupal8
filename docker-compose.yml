@@ -4,6 +4,7 @@ services:
 
   drupal:
     build: .
+    image: ${podName}/drupal
     depends_on:
       - mariadb
     volumes:
